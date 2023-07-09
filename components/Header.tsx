@@ -1,11 +1,16 @@
 import Image from "next/image";
 import { AiOutlineSearch } from "react-icons/ai";
 import EmblemImage from "@/public/images/indian-emblem.png";
+import { useRouter } from "next/router";
 const Header = () => {
+  const router = useRouter();
   return (
     <div className="bg-headerBg z-50 sticky top-0 shadow-sm shadow-black px-10 py-5 text-white">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
-        <div className="flex  items-center gap-3">
+        <div
+          onClick={() => router.push("/")}
+          className="flex cursor-pointer active:scale-95 duration-200 ease-out transition-all items-center gap-3"
+        >
           <Image
             className="h-14 scale-150 w-5 object-contain invert"
             src={EmblemImage}
