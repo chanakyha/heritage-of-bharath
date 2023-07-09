@@ -29,7 +29,6 @@ const Map = () => {
         regionData={stateLists}
         mapLayout={{
           hoverComponent: true,
-
           hoverTitle: "Count",
           noDataColor: "#D36418",
           borderColor: "#ffffff",
