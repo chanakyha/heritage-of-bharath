@@ -15,6 +15,7 @@ const About = () => {
             advancements in archaeological investigations, such as remote sensing techniques, 
             3D modeling, and advanced imaging, we can now document, conserve, and restore ancient 
             sites and artifacts associated with Hindu dynasties with greater accuracy. 
+
           </p>
           <div className="justify-end flex">
             <button className="flex underline font-bold items-center">
