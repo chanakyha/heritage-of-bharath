@@ -8,11 +8,14 @@ const About = () => {
         </h1>
         <div className="col-span-3 flex flex-col">
           <p className="font-martalsans text-[#442000] font-light text-sm ">
-            This fascinating study explores the historical and contemporary
-            influences of Hindu dynasties on global societies. By delving into
-            ancient sites, historical cities, and temples, we aim to uncover the
-            rich cultural, religious, architectural, and artistic legacies left
-            behind by these dynasties.
+            Firstly, it focuses on the preservation of cultural heritage. Hindu dynasties 
+            have contributed immensely to the world's art, architecture, literature, and 
+            religious practices. By studying their cultural impact, we can better understand 
+            and safeguard this invaluable heritage for future generations. Thanks to technological 
+            advancements in archaeological investigations, such as remote sensing techniques, 
+            3D modeling, and advanced imaging, we can now document, conserve, and restore ancient 
+            sites and artifacts associated with Hindu dynasties with greater accuracy. 
+
           </p>
           <div className="justify-end flex">
             <button className="flex underline font-bold items-center">
