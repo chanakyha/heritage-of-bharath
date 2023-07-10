@@ -43,7 +43,12 @@ const CirclePage = () => {
                 Sites
               </p>
             </div>
-            <div className="w-72 relative h-72 flex hover:scale-110 duration-200 ease-out transition-all cursor-pointer items-center justify-center font-martalsans text-white font-extrabold text-xl rounded-lg shadow-lg shadow-black">
+            <div
+              onClick={() =>
+                router.push(`/${state}/${circle}/${place}/inscriptions`)
+              }
+              className="w-72 relative h-72 flex hover:scale-110 duration-200 ease-out transition-all cursor-pointer items-center justify-center font-martalsans text-white font-extrabold text-xl rounded-lg shadow-lg shadow-black"
+            >
               <Image
                 src="https://i.ibb.co/nRrCfVN/istockphoto-1322518486-612x612.jpg"
                 alt="image"

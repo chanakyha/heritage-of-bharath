@@ -8,14 +8,15 @@ const About = () => {
         </h1>
         <div className="col-span-3 flex flex-col">
           <p className="font-martalsans text-[#442000] font-light text-sm ">
-            Firstly, it focuses on the preservation of cultural heritage. Hindu dynasties 
-            have contributed immensely to the world's art, architecture, literature, and 
-            religious practices. By studying their cultural impact, we can better understand 
-            and safeguard this invaluable heritage for future generations. Thanks to technological 
-            advancements in archaeological investigations, such as remote sensing techniques, 
-            3D modeling, and advanced imaging, we can now document, conserve, and restore ancient 
-            sites and artifacts associated with Hindu dynasties with greater accuracy. 
-
+            Firstly, it focuses on the preservation of cultural heritage. Hindu
+            dynasties have contributed immensely to the worlds art,
+            architecture, literature, and religious practices. By studying their
+            cultural impact, we can better understand and safeguard this
+            invaluable heritage for future generations. Thanks to technological
+            advancements in archaeological investigations, such as remote
+            sensing techniques, 3D modeling, and advanced imaging, we can now
+            document, conserve, and restore ancient sites and artifacts
+            associated with Hindu dynasties with greater accuracy.
           </p>
           <div className="justify-end flex">
             <button className="flex underline font-bold items-center">
