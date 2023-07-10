@@ -8,16 +8,13 @@ const About = () => {
         </h1>
         <div className="col-span-3 flex flex-col">
           <p className="font-martalsans text-[#442000] font-light text-sm ">
-            The city of Ahmedabad is blessed with a rich architectural legacy
-            that is essential to the preservation of the local culture and
-            history. Trade and business have a long history there. It is a
-            thriving commercial metropolis where the spirit of entrepreneurship
-            is still prevalent. The city served as the focal point of the
-            nonviolent liberation struggle that resulted in the nation&apos;s
-            1947 independence from colonial rule. Over twenty ASI designated
-            monuments and sites total 2600 historic sites. In addition to these,
-            Ahmedabad&apos;s Pols are regarded as one of the best creations that
-            are steeped in history.
+            Firstly, it focuses on the preservation of cultural heritage. Hindu dynasties 
+            have contributed immensely to the world's art, architecture, literature, and 
+            religious practices. By studying their cultural impact, we can better understand 
+            and safeguard this invaluable heritage for future generations. Thanks to technological 
+            advancements in archaeological investigations, such as remote sensing techniques, 
+            3D modeling, and advanced imaging, we can now document, conserve, and restore ancient 
+            sites and artifacts associated with Hindu dynasties with greater accuracy. 
           </p>
           <div className="justify-end flex">
             <button className="flex underline font-bold items-center">
