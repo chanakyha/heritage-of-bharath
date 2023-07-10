@@ -31,7 +31,10 @@ const CirclePage = () => {
         </div>
         <div className="w-2/3">
           <div className="flex flex-wrap gap-10 mt-10 justify-evenly">
-            <div className="w-72 h-72 relative flex hover:scale-110 duration-200 ease-out transition-all cursor-pointer items-center justify-center font-martalsans text-white font-extrabold text-xl rounded-lg shadow-lg shadow-black">
+            <div
+              onClick={() => router.push(`/${state}/${circle}/${place}/sites`)}
+              className="w-72 h-72 relative flex hover:scale-110 duration-200 ease-out transition-all cursor-pointer items-center justify-center font-martalsans text-white font-extrabold text-xl rounded-lg shadow-lg shadow-black"
+            >
               <Image
                 src="https://i.ibb.co/vDp73T4/istockphoto-1316648703-612x612.jpg"
                 alt="image"
