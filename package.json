@@ -13,16 +13,22 @@
     "@types/react": "18.2.14",
     "@types/react-dom": "18.2.6",
     "autoprefixer": "10.4.14",
+    "d3-scale": "^4.0.2",
     "eslint": "8.44.0",
     "eslint-config-next": "13.4.9",
     "leaflet": "^1.9.4",
     "next": "13.4.9",
     "postcss": "8.4.25",
+    "prop-types": "^15.8.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.10.1",
-    "react-leaflet": "^4.2.1",
+    "react-simple-maps": "^3.0.0",
+    "react-tooltip": "^5.18.0",
     "tailwindcss": "3.3.2",
     "typescript": "5.1.6"
+  },
+  "devDependencies": {
+    "@types/react-simple-maps": "^3.0.0"
   }
 }

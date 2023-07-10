@@ -1,5 +1,7 @@
+import { useRouter } from "next/router";
 import { BsChevronRight } from "react-icons/bs";
 const About = () => {
+  const router = useRouter();
   return (
     <div className="w-screen flex items-center justify-center bg-secondary h-52">
       <div className="max-w-6xl mx-auto grid grid-cols-4">
@@ -19,7 +21,10 @@ const About = () => {
             associated with Hindu dynasties with greater accuracy.
           </p>
           <div className="justify-end flex">
-            <button className="flex underline font-bold items-center">
+            <button
+              onClick={() => router.push("/about")}
+              className="flex underline font-bold items-center"
+            >
               <p>Learn More</p>
               <BsChevronRight />
             </button>

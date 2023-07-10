@@ -7,6 +7,7 @@ export default function Home() {
     <div className="min-h-[calc(100vh-96px)] w-screen flex flex-col">
       <Hero />
       <About />
+      <IndiaMap />
     </div>
   );
 }
